@@ -3,7 +3,7 @@
   hosts: localhost
   vars:
    course: "devsecops"
-   traainer: "raveen"
+   trainer: "raveen"
    duration: "4months"
   tasks:
   - name: variables 

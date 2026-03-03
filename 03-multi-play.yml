@@ -1,0 +1,13 @@
+- name : multi-playbooks
+  hosts: localhosts
+  tasks:
+  - name: task-1 from play 1
+    ansible.builtin.debug:
+
+
+- name : multi-playbooks
+  hosts: localhosts
+  tasks:
+  - name: task-2 from play 2
+    ansible.builtin.debug:
+        

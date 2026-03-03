@@ -6,7 +6,7 @@
 
 
 - name : multi-playbooks
-  hosts: localhosts
+  hosts: localhost
   tasks:
   - name: task-2 from play 2
     ansible.builtin.debug:

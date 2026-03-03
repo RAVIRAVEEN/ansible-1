@@ -1,6 +1,7 @@
+
 - name: ping playbook
-  becomme: yes
-  hosts: node 
+  become: yes
+  hosts: node
   tasks:
-  - name: ping the server 
-    ansible.builtin.ping:
+    - name: ping the server
+      ansible.builtin.ping:

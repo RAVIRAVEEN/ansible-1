@@ -1,5 +1,5 @@
 - name: nginx-playbbok
-  hosts: 
+  hosts: node
   become: yes
   tasks:
    - name: install nginx 

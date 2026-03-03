@@ -6,7 +6,7 @@
    trainer: "raveen"
    duration: "4months"
    tasks:
-   - name: variables 
+   - name: var at taskk level
      vars:
       course: "devops with aws "
       trainer: "shiva"

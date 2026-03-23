@@ -1,7 +1,7 @@
 - name: variables for playbook
   hosts: localhost
   var_files:
-    variables.yml
+   - variables.yml
   tasks:
   - name: variables 
     ansible.builtin.debug:

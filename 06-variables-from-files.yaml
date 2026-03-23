@@ -1,6 +1,6 @@
 - name: variables for playbook
   hosts: localhost
-  var_files:
+  vars_files:
   - variables.yml
   tasks:
   - name: variables 
